@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="58dp"
+        android:text="Nama :"
+        android:textSize="18pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="58dp"
+        android:text="Nim :"
+        android:textSize="18pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="58dp"
+        android:text="Kelas :"
+        android:textSize="18pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="58dp"
+        android:text="Hobi :"
+        android:textSize="18pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="58dp"
+        android:text="Istirahat"
+        android:textSize="18pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="58dp"
+        android:text="Owen Felix"
+        android:textSize="18pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="58dp"
+        android:text="03081220010"
+        android:textSize="18pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="58dp"
+        android:text="22SI2"
+        android:textSize="18pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="147dp"
+        android:layout_height="58dp"
+        android:text="OK"
+        android:textSize="12pt"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
